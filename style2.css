@@ -1,0 +1,550 @@
+*{
+	margin:o;
+	padding:0;
+	box-sizing:border-box;
+}
+.image{
+	height:100%;
+	width:100%;
+	background-image:url("stock.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:auto;
+	border:3px solid yellow;
+}
+nav{
+	background-color:none;
+}
+nav ul{
+	text-align:right;
+	list-style-type:none;
+}
+nav ul li{
+	margin:0 10px;
+	display:inline-block;
+	padding:0px 5px;
+}
+nav li i{
+	color:red;
+}
+nav ul li a{
+	text-decoration:none;
+	color:yellow;
+	font-size:20px;
+	font-family:cursive;
+	font-weight:bold;
+	word-spacing:4px;
+}
+nav ul li a:hover{
+	color:red;
+}
+.center{
+	position:absolute;
+	top:25%;
+	left:40%;`
+	font-family:cursive;
+	font-style:italic;
+	font-size:50px;
+	text-shadow:2px 2px red;
+}
+.we{
+   position:absolute;
+   top:50%;
+   left:47%;
+   font-family:cursive;
+   text-shadow:1px 1px red;
+}
+.button{
+	position:absolute;
+	top:60%;
+	left:50%;
+	height:40px;
+	width:100px;
+	font-size:18px;
+	font-weight:italic;
+	background-color:yellow;
+	border:2px solid black;
+	cursor:pointer;
+	border-radius:20px;
+}
+.button a{
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	font-family:cursive;
+	font-weight:bold;
+}
+.button a:hover{
+	color:red;
+}
+.order{
+	position:absolute;
+	top:60%;
+	left:58%;
+	height:40px;
+	width:120px;
+	font-size:18px;
+	font-weight:italic;
+	background-color:yellow;
+	border:2px solid black;
+	cursor:pointer;
+	border-radius:20px;
+}
+.order a{
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	font-family:cursive;
+	font-weight:bold;
+}
+.order a:hover{
+	color:red;
+}
+.about{
+	height:100%;
+	width:100%;
+	background-image:url("aaa.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:auto;
+	border:3px solid yellow;
+}
+.us{
+	position:absolute;
+	font-family:cursive;
+	font-weight:italic;
+	font-size:50px;
+	color:white;
+	margin-left:40%;
+	text-shadow:2px 2px red;
+}
+.para{
+	position:absolute;
+	top:35%;
+	padding:40px 40px;
+	text-align:center;
+	color:white;
+	font-family:cursive;
+	font-size:20px;
+	font-weight:italic;
+	word-spacing:3px;
+	text-shadow:2px 2px black;
+	
+}
+.cont{
+	height:100%;
+	width:100%;
+	background-image:url("briyani.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:auto;
+	border:3px solid yellow;
+}
+.contact{
+    position:absolute;
+	top:0%;
+	left:12%;
+	font-family:cursive;
+	font-weight:italic;
+	font-size:30px;
+	color:white;
+	text-shadow:1px 1px red;
+}
+.location{
+    position:absolute;
+	top:20%;
+	left:17%;
+	color:yellow;
+	height:10px;
+	width:20px;
+	font-size:30px;
+	text-shadow:1px 1px red;
+}
+.office{
+    position:absolute;
+	top:24%;
+	left:12%;
+	font-family:cursive;
+	font-weight:italic;
+	font-size:20px;
+	color:yellow;
+	text-shadow:1px 2px red;
+}
+.floor{
+    position:absolute;
+	top:33%;
+	left:7%;
+	font-family:cursive;
+	font-weight:italic;
+	font-size:15px;
+	color:white;
+	text-align:center;
+	text-shadow:1px 2px red;
+}
+.en{
+	position:absolute;
+	top:45%;
+	left:17%;
+	color:yellow;
+	height:10px;
+	width:20px;
+	font-size:30px;
+	text-shadow:1px 1px red;
+}
+.mail{
+    position:absolute;
+	top:45%;
+	left:16%;
+	font-family:cursive;
+	font-weight:italic;
+	font-size:25px;
+	color:yellow;
+	text-shadow:1px 1px red;
+}
+.gmail{
+    position:absolute;
+	top:54%;
+	left:12%;
+	font-family:cursive;
+	font-weight:italic;
+	font-size:20px;
+	color:white;
+	text-shadow:1px 2px red;
+}
+.ph{
+	position:absolute;
+	top:63%;
+	left:17%;
+	color:yellow;
+	height:10px;
+	width:20px;
+	font-size:30px;
+	text-shadow:1px 2px red;
+}
+.one{
+    position:absolute;
+	top:65%;
+	left:13%;
+	font-family:cursive;
+	font-weight:italic;
+	font-size:20px;
+	color:yellow;
+	text-shadow:1px 2px red;
+}
+.num{
+    position:absolute;
+	top:74%;
+	left:13%;
+	font-family:cursive;
+	font-weight:italic;
+	font-size:15px;
+	color:white;
+	text-shadow:1px 2px red;
+}
+.delivery{
+	height:100%;
+	width:100%;
+	background-image:url("delivery.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:auto;
+	border:3px solid yellow;
+}
+.sign{
+	height:100%;
+	width:100%;
+	background-image:url("chick.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:auto;
+	border:3px solid yellow;
+}
+.field{
+	height:550;
+	width:450;
+	position:absolute;
+	top:13%;
+	left:60%;
+	border-radius:40px;
+	border:3px solid yellow;
+}
+.leg{
+	font-size:40px;
+	color:teal;
+	text-align:center;
+	font-family:cursive;
+	text-shadow:2px 2px yellow;
+}
+.for{
+	position:relative;
+	top:5%;
+	left:10%;
+}
+.for label{
+	display:flex;
+	margin-top:10px;
+	font-size:25px;
+	color:teal;
+	font-family:cursive;
+	text-shadow:2px 2px yellow;
+}
+.for input{
+	display:flex;
+	margin-left:70px;
+	margin-top:10px;
+	height:30px;
+	width:250px;
+	border:2px solid yellow;
+	border-radius:20px;
+}
+.submit{
+	position:absolute;
+	top:105%;
+	left:30%;
+	height:40px;
+	width:120px;
+	font-size:18px;
+	font-weight:italic;
+	background-color:teal;
+	border:2px solid yellow;
+	cursor:pointer;
+	border-radius:20px;
+}
+.submit a{
+	text-decoration:none;
+	color:yellow;
+	font-size:20px;
+	font-family:cursive;
+	font-weight:bold;
+}
+.submit a:hover{
+	color:black;
+}
+.all{
+	position:absolute;
+	top:120%;
+	text-align:center;
+	font-family:cursive;
+	font-size:20px;
+	font-weight:italic;
+	color:teal;
+	text-shadow:2px 2px yellow;
+}
+.all a{
+	text-decoration:none;
+}
+.all a:hover{
+	color:red;
+}
+.msg{
+	height:100%;
+	width:100%;
+	background-image:url("gallery6.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:auto;
+	border:3px solid yellow;
+}
+fieldset{
+	height:300;
+	width:600;
+	position:absolute;
+	top:20%;
+	left:28%;
+	background-color:black;
+	border-radius:40px;
+	border:3px solid yellow;
+}
+.check{
+	text-align:center;
+	color:yellow;
+}
+.fa-check-circle{
+	font-size:80px;
+}
+.reg{
+	position:absolute;
+	top:25%;
+	left:20%;
+	text-align:center;
+	font-family:cursive;
+	font-size:33px;
+	font-weight:italic;
+	color:teal;
+	text-shadow:2px 2px yellow;
+}
+.log{
+	height:100%;
+	width:100%;
+	background-image:url("log.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:auto;
+	border:3px solid yellow;
+}
+.login{
+	height:400;
+	width:400;
+	position:absolute;
+	top:22%;
+	left:32%;
+	border-radius:40px;
+	border:3px solid yellow;
+}
+.user{
+	font-size:40px;
+	color:teal;
+	text-align:center;
+	font-family:cursive;
+	text-shadow:2px 2px yellow;
+}
+.name{
+	position:relative;
+	top:5%;
+	left:10%;
+}
+.name label{
+	display:flex;
+	margin-top:10px;
+	font-size:25px;
+	color:teal;
+	font-family:cursive;
+	text-shadow:2px 2px yellow;
+}
+.name input{
+	display:flex;
+	margin-left:70px;
+	margin-top:10px;
+	height:30px;
+	width:250px;
+	border:2px solid yellow;
+	border-radius:20px;
+}
+.in{
+	position:absolute;
+	top:120%;
+	left:40%;
+	height:40px;
+	width:95px;
+	font-size:18px;
+	font-weight:italic;
+	background-color:teal;
+	border:2px solid yellow;
+	cursor:pointer;
+	border-radius:20px;
+}
+.in a{
+	text-decoration:none;
+	color:yellow;
+	font-size:20px;
+	font-family:cursive;
+	font-weight:bold;
+}
+.in a:hover{
+	color:black;
+}
+.clear{
+	position:absolute;
+	top:120%;
+	left:8%;
+	height:40px;
+	width:95px;
+	font-size:18px;
+	font-weight:italic;
+	background-color:teal;
+	border:2px solid yellow;
+	cursor:pointer;
+	border-radius:20px;
+}
+.clear a{
+	text-decoration:none;
+	color:yellow;
+	font-size:20px;
+	font-family:cursive;
+	font-weight:bold;
+}
+.clear a:hover{
+	color:black;
+}
+.new{
+    position:absolute;
+	top:150%;
+	text-align:center;
+	font-family:cursive;
+	font-size:20px;
+	font-weight:italic;
+	color:teal;
+	text-shadow:2px 2px yellow;
+}
+.new a{
+	text-decoration:none;
+}
+.new a:hover{
+	color:red;
+}
+.gallery{
+	background-image:url("aaa.jpg");
+	background-repeat:cover;
+	background-size:cover;
+	background-attachment:fixed;
+	border:3px solid yellow;
+}
+.src{
+	text-align:center;
+}
+.src a{
+	color:black;
+}
+.src a:hover{
+	color:yellow;
+}
+.menu{
+	background-image:url("menu.jpg");
+	background-repeat:cover;
+	background-size:cover;
+	background-attachment:fixed;
+	border:3px solid yellow;
+}
+.orders{
+	position:absolute;
+	top:40%;
+	left:15%;
+	height:60px;
+	width:140px;
+	font-size:25px;
+	font-weight:italic;
+	background-color:yellow;
+	border:4px solid black;
+	cursor:pointer;
+	border-radius:30px;
+}
+.orders a{
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	font-family:cursive;
+	font-weight:bold;
+}
+.orders a:hover{
+	color:red;
+}
+.hand{
+	position:absolute;
+	top:30%;
+	left:19%;
+	color:black;
+	height:30px;
+	width:40px;
+	font-size:40px;
+	text-shadow:1px 1px black;	
+}
+
+	
+	
+	
+
+	
+	
+	
+	
+	
